@@ -1,0 +1,209 @@
+body,
+html {
+    background-color: #e6e6e6;
+    min-height: 768px;
+}
+#wrapper {
+    width: 100%;
+    min-height: 768px;
+}
+.form-login {
+    background-color: white;
+    border: 0px solid #fff;
+    padding: 50px 60px;
+    margin-top: 15vh;
+    -webkit-box-shadow: 0px 1px 108px 8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 1px 108px 8px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 1px 108px 8px rgba(0, 0, 0, 0.75);
+    border-radius: 13px 13px 13px 13px;
+    -moz-border-radius: 13px 13px 13px 13px;
+    -webkit-border-radius: 13px 13px 13px 13px;
+    border: 0px solid #000000;
+}
+.background-login {
+    background: url("../image/bg.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.two-button-center {
+    list-style-type: none;
+    padding: 0px ;
+    text-align: center;
+}
+#page-wrapper,
+#page-wrapper-small, #page-wrapper-large {
+    background-color: #fff;
+}
+.background-gray {
+    background-color: #e6e6e6;
+    border: 1px solid #CAC8BB;
+}
+.navbar-50{
+    min-height: 50px;
+    padding: 0px !important;
+}
+#label-admin-page {
+    margin-left: 10px;
+    font-size: 18px;
+}
+.navbar-brand {
+    margin-left: 10px;
+    padding-top: 0px
+}
+.left-sidebar {
+    background-color: #e6e6e6;
+}
+.left-sidebar ul,
+.left-sidebar li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    line-height: 35px;
+    cursor: pointer;
+}
+.left-sidebar li {
+    padding-left: 0px;
+    border-bottom: 1px solid #CAC8BB;
+}
+.left-sidebar li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.left-sidebar li a i {
+    padding-left: 10px;
+    width: 20px;
+    padding-right: 20px;
+}
+.left-sidebar li:hover,.left-sidebar li:focus {
+    border-left: 3px solid black;
+    background-color: #00EEFF;
+}
+.left-sidebar ul .sub-menu li,
+.left-sidebar li .sub-menu li {
+    background-color: #181c20;
+    border: none;
+    line-height: 28px;
+    border-bottom: 1px solid #CAC8BB;
+    margin-left: 0px;
+}
+.left-sidebar ul .sub-menu li a {
+    color: #e1ffff;
+}
+.left-sidebar ul .sub-menu li:hover,
+.left-sidebar li .sub-menu li:hover {
+    background-color: #020203;
+}
+@media (min-width: 500px) {
+    .navbar-toggler {
+        display: none;
+    }
+    #menu-content,
+    #label-admin-page {
+        display: block;
+    }
+    #page-wrapper {
+        position: inherit;
+        margin: 0 0 0 250px;
+        padding: 0 30px;
+        border-left: 1px solid #CAC8BB;
+        min-height: 768px;
+    }
+    #page-wrapper-small {
+        position: inherit;
+        margin: 0 250px 0 250px;
+        padding: 0 30px;
+        border-left: 1px solid #CAC8BB;
+        border-right: 1px solid #CAC8BB;
+        min-height: 768px;
+        border-radius: 5px 5px 0 0;
+    }
+    #page-wrapper-large{
+        min-height: 768px;
+
+    }
+    .left-sidebar {
+        z-index: 1;
+        position: absolute;
+        width: 250px;
+        top: 51px;
+        left: 0px;
+        background-color: #e6e6e6;
+    }
+    .right-sidebar {
+        z-index: 1;
+        position: absolute;
+        width: 250px;
+        top: 51px;
+        right: 0px;
+        background-color: #e6e6e6;
+    }
+}
+
+@media (max-width: 500px) {  
+    #label-admin-page {
+        display: none;
+    }  
+    .left-sidebar {
+        width: 100%;
+    }
+    .right-sidebar {
+        width: 100%;
+    }
+}
+#slogan {
+    position: absolute;
+    font-size: 12px;
+    top: 30px;
+    left: 45px;
+}
+.arrow-down {
+    float: right;
+    margin-top: 9px;
+}
+.page-header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.double-row {
+    vertical-align: middle !important;
+}
+.thumb-image {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: 0px auto;
+    border-radius: 20px;
+}
+.tab-content{
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+    padding: 10px;
+}
+.bet-card-1, .bet-card-2{
+    background-color: #181c20;
+    border-radius: 8px;
+    min-height: 190px;
+    margin-bottom: 10px;
+}
+.bet-card-1:hover, .bet-card-2:hover{
+    background-color: #020203;
+}
+
+.bet-card-1 p, .bet-card-2 p{
+    color: #e1ffff;
+    margin:0px;
+    padding: 0px;
+}
+
+.button-like-link{
+     background:none!important;
+     border:none; 
+     padding:0!important;
+     font: inherit;
+     cursor: pointer
+}
+.button-like-link:hover{
+    text-decoration: underline;
+}
